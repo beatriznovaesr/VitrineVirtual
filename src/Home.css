@@ -1,0 +1,53 @@
+img {
+    width: auto;
+    height: 250px;
+    display: block; 
+    margin: 0 auto;
+}
+h1{
+  color: #531409;
+  font-family: Georgia;
+  font-size: 50px;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: center;
+}
+body{
+  background-color: #E4CECB;
+}
+
+#cardsrow1, #cardsrow2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 500px;
+  }
+
+.card {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 350px; 
+    border: solid;
+    border-color: #531409;
+  }
+  
+.card-body {
+    height: 50px;
+    width: 100%;
+    color:#FFE8E9;
+    text-align: center;
+    text-decoration: black;
+    text-decoration-line: none;
+    background-color: #531409;
+  }
+
+.card-title{
+    font-size: 15px;
+}
+.card-text{
+    font-size: 18px;
+}
+

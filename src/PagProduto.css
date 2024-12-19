@@ -1,0 +1,48 @@
+#nomeProduto{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#borda{
+    background-color: white;
+    border: solid;
+    border-color: #531409 ;
+    width: 400px;
+    height: 350px;
+    display: flex; 
+    border-radius: 15px;
+}
+
+#detalhes{
+    background-color: #531409;
+    color: #FFE8E9;
+    width: 600px;    
+    height: 350px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 12px;
+ 
+
+}
+
+#informacoes{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;   
+    height: 70vh;
+}
+
+#cep{
+    display: flex;
+    margin-top: 1%;
+    justify-content: center;
+    border-radius: 15px;
+    border: #531409;
+    color:#531409;
+    font-weight: bold;
+}
